@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   #spec.source_files 是检索的spec.source地址下的tag为spec.version下的Classes文件夹下的所有文件
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
- #这个暂时不用注释掉 spec.exclude_files = "Classes/Exclude"
+  #这个暂时不用注释掉 spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
