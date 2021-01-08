@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "testLib"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "这是简介"
 
   # This description is used to generate tags and improve search results.
@@ -39,9 +39,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT"
-  #spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "Copyright (c) 2020 jiang"
+  
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
